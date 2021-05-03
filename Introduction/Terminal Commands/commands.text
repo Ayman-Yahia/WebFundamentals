@@ -1,0 +1,12 @@
+1-mkdir test
+2-toush index.html
+3-touch style.css
+4- touch commands.text
+5-cp index.html index2.html
+6-cd ..
+7- mkdir destination
+8-cd test
+9-cp index2.html ..
+10-cd ..
+11-cp index2.html destination/
+12-rm rf destination

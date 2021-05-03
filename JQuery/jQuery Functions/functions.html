@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Functions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.click').click(function(){
+                alert('click is a jQuery method.')
+            })
+            $('.hide').click(function(){
+                $('#header').hide();
+            })
+            $('.show').click(function(){
+                $('#header').show()
+            })
+            $('.toggle').click(function(){
+                $('.mypar').toggle()
+            })
+            $('.slideDown').click(function(){
+                $('.pc').slideDown()
+            })
+            $('.slideUp').click(function(){
+                $('.pc').slideUp();
+            })
+            $('.slideToggle').click(function(){
+                $('.pc').slideToggle()
+            })
+            $('.fadeIn').click(function(){
+                $('.par').fadeIn()
+            })
+            $('.fadeOut').click(function(){
+                $('.par').fadeOut();
+            })
+            $('.addClass').click(function(){
+                $('h22').addClass('header2')
+            })
+            $('.before').click(function(){
+                $('.par').before('<p>before text</p>')
+            })
+            $('.after').click(function(){
+                $('.par').after('<p>this assignment is booring</p>')
+            })
+            $('.append').click(function(){
+                $('.par').append('<b>Appended text</b>.')
+            })
+            $('.markup').click(function(){
+                $('#header').html('Welcome to our website!')
+            })
+            $('.attri').click(function(){
+                $('.pc').attr("width",'500')
+            })
+            $('.val').click(function(){
+                $('input:text').val('Ayman Yahia')
+            })
+            $('.text').click(function(){
+                $('.h22').text('text is here')
+            })
+        })
+    </script>
+</head>
+<body>
+    <div id="main-content">
+        <h1 id="header">Welcome!</h1>
+        <div class="content">
+            <div class="methods">
+                <h2>jQuery methods u can use:</h2>
+                <ul>
+                    <li><button class="click bt">Click</button></li>
+                    <li><button class="hide bt">hide header</button></li>
+                    <li><button class="show bt">show header</button></li>
+                    <li><button class="toggle bt">toggle p</button></li>
+                    <li><button class="slideDown bt">slideDown img</button></li>
+                    <li><button class="slideUp bt">slideUp img</button></li>
+                    <li><button class="slideToggle bt">slideToggle img</button></li>
+                    <li><button class="fadeIn bt">fadeIn</button></li>
+                    <li><button class="fadeOut bt">fadeOut</button></li>
+                    <li><button class="addClass bt">addClass</button></li>
+                    <li><button class="before bt">before</button></li>
+                    <li><button class="after bt">after</button></li>
+                    <li><button class="append bt">append</button></li>
+                    <li><button class="markup bt">HTML</button></li>
+                    <li><button class="attri bt">attr</button></li>
+                    <li><button class="val bt">val</button></li>
+                    <li><button class="text bt">text</button></li>
+                </ul>
+            </div>
+            
+            <div class="right-side">
+                <h2 class="h22">jQuery functions</h2>
+                <input type="text" id="search" placeholder="search"><br><br>
+                <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque soluta nobis veniam sequi laudantium molestias illo saepe veritatis quam, qui quia obcaecati rem hic in nisi, itaque sint iste. Et!</p><br><br><br>
+                <p class="mypar">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><br>
+                <h3 class="he">Lorem ipsum dolor sit amet.</h3><br>                
+                <img class="pc" src="img/pc.jpg" width="400px" alt="pc-img">
+            </div>
+        </div>   
+    </div>
+</body>
+</html>

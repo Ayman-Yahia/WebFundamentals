@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+}
+
+.row {
+    line-height: 0px;
+}
+
+.blank {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.wall {
+    background-color: rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.coin {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-image: url('img/coin.gif');
+    background-size: 100% 100%;
+    
+}
+
+
+#enemy {
+    background-image: url('img/enemy.gif');
+    background-size: contain;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    
+
+}
+
+#pacman {
+    background-image: url('img/pacman.gif');
+    background-size: contain;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

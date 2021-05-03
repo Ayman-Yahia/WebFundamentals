@@ -1,0 +1,39 @@
+1-
+
+SELECT * FROM users
+INNER JOIN friendships ON users.id=friendships.user_id
+LEFT JOIN users as users2 ON friendships.friend_id=users2.id
+WHERE users2.first_name LIKE 'Kermit'
+2-
+SELECT COUNT(friendships.id) FROM friendships
+3-
+SELECT  COUNT(users.id),users.id,CONCAT(users.first_name,' ',users.last_name) FROM friendships
+INNER JOIN users ON friendships.user_id=users.id
+GROUP BY users.id
+ORDER BY COUNT(users.id) DESC LIMIT 1
+4-
+
+VALUES('Test first','Test last',NOW(),NOW());
+
+INSERT INTO friendships (user_id,friend_id,created_at)
+VALUES(6,2,NOW());
+
+INSERT INTO friendships (user_id,friend_id,created_at)
+VALUES(6,4,NOW());
+
+INSERT INTO friendships (user_id,friend_id,created_at)
+VALUES(6,5,NOW());
+5-
+SELECT CONCAT(users2.first_name,' ',users2.last_name) FROM users
+INNER JOIN friendships ON users.id=friendships.user_id
+LEFT JOIN users as users2 ON friendships.friend_id=users2.id
+WHERE users.first_name LIKE 'Eli'
+ORDER BY users2.first_name ASC
+6-
+DELETE FROM friendships 
+WHERE friend_id = '2'AND friend_id = '5';
+
+7-
+select CONCAT(users.first_name,' ',users.last_name) as User, CONCAT(users2.first_name,' ',users2.last_name) as Friend FROM users
+INNER JOIN  friendships ON users.id=friendships.user_id
+LEFT JOIN users as users2 ON friendships.friend_id=users2.id

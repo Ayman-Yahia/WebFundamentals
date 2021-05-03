@@ -1,0 +1,12 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+h1{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.imgs img{
+    display: block;
+    margin-bottom: 5px;
+}

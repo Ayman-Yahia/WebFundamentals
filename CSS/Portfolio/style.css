@@ -1,0 +1,165 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+}
+#Portfolio{
+    width: 1000px;
+    background-color: #806563;
+}
+.left{
+    font-family: Verdana;
+}
+.header{
+    height: 70px;
+    display: flex;
+    background-color: #ded1d1;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.about{
+    display: flex;
+    margin: 17px;
+    vertical-align: top;
+    justify-content: space-between;
+}
+.aboutme {
+    width:550px;
+    background-color: #dbd5d5;
+}
+.hr {
+    background-image: linear-gradient(#aeaeb2,#888794,#9c9ba4);
+    height: 40px;
+}
+.hr h3{
+    padding: 10px;
+    color: white;
+    align-self: center;
+}
+.aboutme p{
+    height: 100px;
+    margin: 8px;
+}
+.aboutme a{
+    color: black;
+    margin: 20px;
+}
+.about-img{
+    width:500px;
+    height: 300px;
+    border: 5px solid #9c9ba4;   
+    flex: 1; 
+    margin: 0 20px 0 0;
+}
+.projects {
+    display: block;
+}
+.titleP {
+    display: flex;
+}
+.hm{
+    width: 300px;
+    background-image:linear-gradient(#aeaeb2,#888794,#9c9ba4); 
+    height: 40px;
+}
+.hm h3{
+    padding: 10px;
+    color: white;
+    align-self: center;
+}
+.pjPhotos {
+    display: flex;
+}
+.pj-img {
+    width: 300px;
+    height: 200px;
+    padding: 0 10px;
+}
+
+.pjPar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.par{
+    background-color:#dbd5d5 ;
+    width: 300px;
+    height: 130px;
+    
+}
+.par p{
+    margin: 8px;
+}
+.tech {
+    display: flex;
+}
+.hs{
+    width: 300px;
+    background-image:linear-gradient(#aeaeb2,#888794,#9c9ba4); 
+    height: 40px;
+}
+.hs h3{
+    padding: 10px;
+    color: white;
+    align-self: center;
+}
+.cic{
+    width: 50px;
+    height: 50px;
+}
+.techno{
+    display: flex;
+    justify-content: space-between;
+}
+.techic{
+    background-color:#dbd5d5 ;
+    width: 300px;
+    height: 180px;
+    
+}
+.cic {
+    width: 40px;
+    height: 40px;
+    margin: 10px 3px;
+    padding: 0 4px;
+}
+.techic h5{
+    text-align: center;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+}
+
+#contact {
+    background: #c0c0c0;
+    margin: 18px 0;
+    display: block;
+    width: 1000px;
+    height: 50px;
+    
+}
+
+#contact p {
+    text-align: center;
+    padding: 3px 0;
+    font-style: normal;
+}
+#contact {
+    background: #c0c0c0;
+    display: block;
+    color: black;
+}
+#contact a{
+    color: black;
+    font-style: italic;
+}
+
+#contact img {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+

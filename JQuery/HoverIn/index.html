@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover In</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+	        $(document).ready(function(){
+                $('.hoin').hover(function(){
+                let newpic= $(this).attr("alt-src");    
+                $(this).attr("src", newpic); 
+            }, function(){
+                let orgi = $(this).attr("orgi-src");   
+                $(this).attr("src", orgi); 
+            })
+            })
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div class="imgs">
+            <img class="hoin" src="img/stop.jpg" alt="stop" orgi-src="img/stop.jpg" alt-src="img/Go.jpg">
+            <img class="hoin" src="img/first.png" alt="first" orgi-src="img/first.png" alt-src="img/last.png">
+            <img class="hoin" src="img/yes.jpg" alt="yes" orgi-src="img/yes.jpg"alt-src="img/no.jpg">
+            <img class="hoin" src="img/white.jpg" alt="white" orgi-src="img/white.jpg" alt-src="img/black.jpg">
+
+        </div>
+    </div>
+    
+    
+</body>
+</html>

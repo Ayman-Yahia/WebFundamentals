@@ -1,0 +1,184 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.mainContent{
+    background-color: #245076;
+    width: 970px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.header a{
+    color: yellow;
+}
+
+.header span{
+    color: black;
+}
+
+.header img{
+    width: 260px;
+    height: 130px;
+    margin-left: 20px;
+}
+
+.right-header{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.text-size{
+    float:right;
+    margin-right: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.search{
+    background-color: #444444;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+
+.search input{
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    color: gray;
+    border: 2px solid gray;
+}
+
+.search button{
+    background-color: #245076;
+    color: white;
+    padding: 4px;
+    margin-left: 5px;
+    height: 25px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+}
+
+.Navbar{
+    background-color: #427BAD;
+    width: 830px;    
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+    margin-bottom: 25px;
+}
+
+.Navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.Navbar ul a{
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px
+}
+.Navbar ul a:hover{
+    border-bottom: 2px solid white;
+}
+
+.menue{
+    margin-left: 95px;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+
+.menue ul{
+    color: #FCD42E;
+    
+}
+
+.menue a{
+    color: white;
+    font-weight: 100;
+    font-size:17px;
+}
+
+.par{
+    color: white;
+    font-size: 13px;
+    display:inline-block;
+    width: 650px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    vertical-align: top;
+}
+.par p{
+    margin-bottom: 10px;
+}
+.the-zen {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.yellow{
+    color: #FCD42E;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.content{
+    background-color: white;
+    height: 200px;
+    width: 970px;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.content1{
+    border-top:3px solid #72A7D5;
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+    padding-right: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.block li{
+    list-style: square;
+}
+
+.blue{
+    color: #75A9D6;
+}
+
+.footer{
+    width: 570px;
+    padding: 50px 200px 10px 200px;
+    color: #87B9E5;
+}
+.top-Footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+}

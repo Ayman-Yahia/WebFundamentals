@@ -1,0 +1,72 @@
+body {
+    display: block;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #051A1A;
+}
+.navbar-brand img{
+    max-height: 40px;
+
+}
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color:white ;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    margin: auto 10px;
+}
+section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #B7C9C9;
+}
+section h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 20px;
+}
+section p{
+    font-size: 16px;
+    font-weight: 300;
+}
+button {
+    max-width: 180px;
+    border-radius: 50px;
+}
+#content .col{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
+}
+#content .img-col{
+    justify-content:flex-end;
+    margin-top: 100px;
+}
+#content img{
+    max-width: 130%;
+    width: 120%;
+}
+#courses{
+    display: flex;
+    margin-top: 50px;
+}
+#courses .card{
+    border: 0;
+    background-color: #B7C9C9;
+
+}
+#courses .card h3{
+    font-size: 32px;
+    text-align: center;
+}
+#courses .card p{
+    font-size: 25px;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+Use lead_gen_business
+
+INSERT INTO leads (first_name, last_name)
+VALUES('Ayman', 'Yahia');
+
+select first_name, last_name from clients where id = 2;
+
+UPDATE clients SET `first_name` = 'Ahmad', `last_name` = 'loay', `email` = 'jhhh@gmail.com', `joined_datetime` = '2019-04-25 14:09:15' WHERE (`id` = '14');
+
+DELETE FROM clients WHERE (`id` = '14');

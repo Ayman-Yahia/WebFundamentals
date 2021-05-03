@@ -1,0 +1,20 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+#container{
+    display: flex;
+    
+}
+.imgs{
+    margin-top: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.hoin{
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+    
+}
